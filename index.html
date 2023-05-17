@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CSBM Web development internship</title>
+      <!-- CSS LINK -->
+      <link rel="stylesheet" href="style.css">
+      <!-- FONT AWESOME CSS LIKN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- FONT AWESOME CSS LIKN -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+         />
+      <!-----Bootstrap--> 
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+      <style>
+         a{
+         text-decoration: none;
+         }
+         h1,
+         h2,
+         h3,
+         h4,
+         h5 {
+         color: var(--color-black);
+         line-height: 1.2;
+         }
+         h1 {
+         font-size: 3.8rem;
+         font-size: xx-large;
+         }
+         .h1{
+         font-size: 1500px;
+         font-family: 600px;
+         color: black;
+         }
+         h2 {
+         font-size: 2.6rem;
+         }
+         h3 {
+         font-size: 1rem;
+         }
+         h4 {
+         font-size: 1.2rem;
+         }
+         p {
+         line-height: 1.8;
+         font-size: 1.2rem;
+         color: #141415;
+         font-weight: bold;
+         }
+         /* Define the animation */
+         @keyframes slideIn {
+         from { opacity: 0; transform: translateY(-50px); }
+         to { opacity: 1; transform: translateY(0); }
+         }
+         /* Apply animations to elements */
+         .nav-container {
+         animation: slideIn 0.5s ease-in-out;
+         }
+         /* Add transition effect to the nav-button */
+         .nav-button {
+         transition: opacity 0.3s ease-in-out;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- ................START NAV SECTION............ -->
+      <nav>
+         <div class="container nav-container" >
+            <a href="" class="logo">
+               <h1>WEB<span style="color:#023AFF" >.DEV</span></h1>
+            </a>
+            <ul style=" height: 27px; padding-left: 0px; " >
+               <li><a href="#" class="nav-active" style="font-size: 20px; font-weight: bold;" >Home</a></li>
+               <li><a href="#mentors" style="font-size: 20px; font-weight: bold;" >Mentors</a></li>
+               <li><a href="#interns"style="font-size: 20px; font-weight: bold;" >Interns</a></li>
+               <li><a href="#projects"style="font-size: 20px; font-weight: bold;" >Projects</a></li>
+               <li><a href="#gallery"style="font-size: 20px; font-weight: bold;" >Gallery</a></li>
+               <li><a href="http://archive.ksg.keltron.in/index.php"><button class="btn1" style="margin: 10px;">Contact us</button></a></li>
+            </ul>
+            <div class="nav-button">
+               <button class="Open"><i class="fa fa-bars" style="font-size:38px;color:#023AFF"></i></i></button>
+               <button class="Close"><i class="fa fa-close" style="font-size:38px;color:#023AFF"></i></button>
+            </div>
+         </div>
+      </nav>
+      <!-- ................START NAV SECTION............ -->
+      <!--.................Hero section start...........-->
+      <section>
+         <div class="herobg">
+            <div class="hero">
+               <h3 class="hero-title">
+                  ___________Coding & learning
+               </h3>
+               <h1 class="hero-desc">
+                  KELTRON SUMMER INTERNSHIP<br> @WEB DEVELOPMENT 
+               </h1>
+               <h4 class="powerd">
+                  Conducted by department of CSBM
+               </h4>
+               <br>
+               <button class="btn1" style="width:10rem;">Meet our interns</button>
+            </div>
+         </div>
+      </section>
+      <!--Our mentors Section-->
+      <section id="mentors">
+         <div class="mentors">
+            <div class="slash"></div>
+            <h1 class="section-heading">Our mentors</h1>
+         </div>
+         <div class="imgcontainer">
+            <div class="img1">
+               <img class="img-mentors" src="./img/firoze.jpg" alt="image" height="200px" />
+               <h3 style="text-align: center;" >Dr.Firoze PM</h3>
+               <p style="text-align: center;">HOD CABM</p>
+            </div>
+            <div class="img1">
+               <img class="img-mentors" src="./img/irshad.jpg" alt="image" height="200px" />
+               <h3 style="text-align: center;">Muhammed Irshad V</h3>
+               <p style="text-align: center;">Internal Coordinator</p>
+            </div>
+            <div class="img1">
+               <img class="img-mentors" src="./img/ashna.jpg" alt="image" height="200px" />
+               <h3 style="text-align: center;">Ashna T</h3>
+               <p style="text-align: center;">Web developer Trainee</p>
+            </div>
+         </div>
+      </section>
+      <!--Interns section -->
+      <section id="interns">
+         <div class="mentors">
+            <div class="slash"></div>
+            <h1 class="section-heading">We The Interns</h1>
+         </div>
+         <h2 style="text-align: center; margin: 30px;">Group 1</h2>
+         <div class="firstrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/vidya.jpg" >
+               <h3>VIDYA K</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/fasi.jpg" >
+               <h3>FASEELA T T</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/arunimaa.jpg" >
+               <h3>ARUNIMA P</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/archu.jpg" >
+               <h3>ARCHANA P K</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <h2 style="text-align: center;margin: 30px;">Group 2</h2>
+         <div class="secondrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/athu.jpg">
+               <h3>ATHULYA CHANDRAN . P</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/prar.jpg">
+               <h3>PRARTHANA RAJESH. P.R  </h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/hri.jpg">
+               <h3>HRUDYA M</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/mufee.jpg">
+               <h3>MUFEEDA BANU P T</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <div class="thirdrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/anju.jpg">
+               <h3>ANJUSHA C</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/vishnu.jpg" >
+               <h3>VISHNUPRIYA. K.P </h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <h2 style="text-align: center; margin: 30px;">Group 3</h2>
+         <div class="fourthrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/sana.jpg" >
+               <h3>SANA NASHVA. C.P</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/shifa.jpg" >
+               <h3>SHIFA HANNA P  </h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/beevi.jpg" >
+               <h3>SHEREEFA YUMNA BEEVI</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/diln.jpg" >
+               <h3>DILNA C P</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <div class="fifthrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/ara.jpg" height="180px">
+               <h3>ARAFA. E M</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <h2 style="text-align: center; margin: 30px;">Group 4</h2>
+         <div class="sixthrow">
+            <div class="div1">
+               <img  class="img-interns"src="./img/muni.jpg"height="180px">
+               <h3>MUNISA SANA KK</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/lub.jpg" height="180px">
+               <h3>LUBNA SHAHANAS</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/jusaira.jpg" height="180px">
+               <h3>JUSAIRA C K</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/aadhil.jpg" height="180px">
+               <h3>ADHILA. P</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <div class="seventhrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/fem.jpg" height="180px">
+               <h3>FEMINA . P</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         </div>
+         <h2 style="text-align: center; margin: 30px;">Group 5</h2>
+         <div class="eighthrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/rush.jpg" height="180px">
+               <h3>RUSHDA BANU </h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/ramshi.jpg" height="180px">
+               <h3>RAMSHIDA K T</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/rumi.jpg" height="180px">
+               <h3>RUMAISHA P K</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/mahra.jpg" height="180px">
+               <h3>MAHRA T</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <div class="ninethrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/saha.jpg" height="180px">
+               <h3>SHAHANA SHERIN </h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/liya.jpg" height="180px">
+               <h3>LIYANA BASHEER</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <h2 style="text-align: center; margin: 30px;">Group 6</h2>
+         <div class="tenthrow">
+            <div class="div1">
+               <img class="img-interns"  src="./img/asn.jpg"height="180px">
+               <h3>ASNA V T</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/shami.jpg"height="180px">
+               <h3>SHAMILA</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/neeth.jpg" height="180px">
+               <h3>NEETHU T T </h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/kav.jpg" height="180px">
+               <h3>KAVYA T</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <h2 style="text-align: center; margin: 30px;">Group 7</h2>
+         <div class="eleventhrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/naj.jpg" height="180px">
+               <h3>NAJLA P M</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/adit.jpg" height="180px">
+               <h3>ADHITHYA KP</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/salomii.jpg" height="180px">
+               <h3>SALOMI K M </h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/alfa.jpg" height="180px">
+               <h3>ALFA SERIN</h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+         <h2 style="text-align: center ; margin: 30px;">Group 8</h2>
+         <div class="twelvethrow">
+            <div class="div1">
+               <img class="img-interns" src="./img/krish.jpg" height="180px">
+               <h3>KRISHNA PRIYA E</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/aswa.jpg" height="180px">
+               <h3>ASWANI T</h3>
+               <button class="btn1" >Github</button>
+            </div>
+            <div class="div1">
+               <img class="img-interns" src="./img/sne.jpg" height="180px">
+               <h3>SNEHA P </h3>
+               <button class="btn1" >Github</button>
+            </div>
+         </div>
+      </section>
+      <!-----------------------------------------Thibgs we learn ----------------------------------------------->
+      <section id="projects">
+         <div class="mentors">
+            <div class="slash"></div>
+            <h1 class="section-heading">Things we learn</h1>
+         </div>
+         <div class="maincontainer">
+            <div class="container1">
+               <div>
+                  <img
+                     src="./img/all.jpeg"
+                     alt="image"
+                     class="image-learn"
+                     style="border-radius: 10px; object-fit: contain"
+                     />
+               </div>
+            </div>
+            <div class="container2">
+               <div class="icontext">
+                  <div class="contact-icon">
+                     <i class="fa fa-address-card-o"></i>
+                  </div>
+                  <p>Simple portfolio card</p>
+               </div>
+               <div class="icontext">
+                  <div class="contact-icon">
+                     <i class="fa fa-calculator"></i>
+                  </div>
+                  <p>Simple calculator</p>
+               </div>
+               <div class="icontext">
+                  <div class="contact-icon">
+                     <i class="fa fa-file-archive-o"></i>
+                  </div>
+                  <p>Calculator with js</p>
+               </div>
+               <div class="icontext">
+                  <div class="contact-icon">
+                     <i class="fa fa-phone"></i>
+                  </div>
+                  <p>Contact form</p>
+               </div>
+               <div class="icontext">
+                  <div class="contact-icon">
+                     <i class="fa fa-paper-plane"></i>
+                  </div>
+                  <p>Summer internship website</p>
+               </div>
+               <div class="icontext">
+                  <div class="contact-icon">
+                     <i class="fa fa-mortar-board"></i>
+                  </div>
+                  <p>E-commerce website</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!---------------Gallery------------->
+      <section id="gallery">
+         <div class="mentors">
+            <div class="slash"></div>
+            <h1 class="section-heading">Gallery</h1>
+         </div>
+         <div class="container" style="width: 700px; ">
+            <div id="myCarousel" class="carousel slide bg-inverse w-50 ms-auto me-auto" data-bs-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="6"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="7"></li>
+               </ol>
+               <div class="carousel-inner" role="listbox" style="box-shadow: 1px 1px 20px rgb(146, 146, 146);">
+                  <div class="carousel-item active">
+                     <img class="d-block w-100 h-50" src="image1.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100" src="image3.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100" src="image6.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100" src="image8.jpg" alt="Fourth slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100" src="image5.jpg" alt="Fifth slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100" src="image7.jpg" alt="Sixth slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100" src="image2.jpg" alt="Seventh slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100" src="image1.jpg" alt="Eighth slide">
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+               </a>
+            </div>
+         </div>
+      </section>
+      <!----------------------Testimonials ------------------------------>
+      <section id="testimonials">
+         <div class="mentors">
+            <div class="slash"></div>
+            <h1 class="section-heading">Testimonials</h1>
+         </div>
+         <div class="content-wrapper" >
+            <div class="paragraph" style="font-weight: lighter;">
+               Let's here from the interns itself about their experience!!
+            </div>
+            <div class="wrapper-for-arrows" >
+               <div id="reviewWrap" class="review-wrap"  >
+                  <div class="flex">
+                     <div id="imgDiv" class="">
+                     </div>
+                     <div class="flex2" style="margin: 20px;">
+                        <div id="personName" ></div>
+                        <div id="profession" ></div>
+                     </div>
+                  </div>
+                  <div id="description" style="padding: 20px;">
+                  </div>
+               </div>
+               <div class="left-arrow-wrap arrow-wrap">
+                  <div class="arrow" id="leftArrow"></div>
+               </div>
+               <div class="right-arrow-wrap arrow-wrap">
+                  <div class="arrow" id="rightArrow"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-------------------Footer-------------------------------------------------->
+      <footer >
+         <section>
+            <div class="containerlast">
+               <div class="footerbg">
+                  <h1>WEB.DEV</h1>
+                  <a href="http://archive.ksg.keltron.in/index.php"><button class="buttonlast" style="height: 30px;width:100px;">contact us</button></a> 
+               </div>
+               <div class="footerbox">
+               </div>
+               <br>
+               <p style="text-align: center; opacity: 0.7; font-size: smaller;">2022 <a href="" style="color: black;">WEB.DEV</a> all Rights Reserved </p>
+            </div>
+         </section>
+      </footer>
+      <!-- CUSTOM JAVASCRIPT LINK -->
+      <script src="script.js"></script>
+      <!-----Gallery-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+         crossorigin="anonymous"></script>
+      <!----------Testimoials ------------>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+   </body>
+</html>
